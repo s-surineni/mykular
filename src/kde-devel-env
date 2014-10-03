@@ -1,0 +1,14 @@
+KDE_DEVELOPMENT_PATH=~/devel/install
+export PATH=$KDE_DEVELOPMENT_PATH/bin:$PATH
+export LD_LIBRARY_PATH=$KDE_DEVELOPMENT_PATH/lib/kde4:$LD_LIBRARY_PATH
+export KDEDIR=$KDE_DEVELOPMENT_PATH
+export KDEDIRS=$KDE_DEVELOPMENT_PATH
+export KDEHOME=~/devel/kdehome # Configuration settings end up here
+export KDETMP=/tmp/kde-git-$USER
+export KDEVARTMP=/var/tmp/kde-git-$USER
+export CMAKE_PREFIX_PATH=$KDEDIR:$CMAKE_PREFIX_PATH
+export CMAKE_LIBRARY_PATH=$KDEDIR/lib:$CMAKE_LIBRARY_PATH
+export CMAKE_INCLUDE_PATH=$KDEDIR/include:$CMAKE_INCLUDE_PATH
+mkdir -p $KDETMP
+mkdir -p $KDEVARTMP
+kbuildsycoca4

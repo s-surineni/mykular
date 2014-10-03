@@ -1,0 +1,204 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3074367204/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3074367204.dir/build.make CMakeFiles/cmTryCompileExec3074367204.dir/build
+make[1]: Entering directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3074367204.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3074367204.dir/CheckSymbolExists.c.o   -c /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_WIN’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: Leaving directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3074367204.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTryCompileExec3074367204/fast] Error 2
+
+File /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec359858635/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec359858635.dir/build.make CMakeFiles/cmTryCompileExec359858635.dir/build
+make[1]: Entering directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec359858635.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec359858635.dir/CheckSymbolExists.c.o   -c /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_QWS’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec359858635.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec359858635/fast] Error 2
+
+File /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2502197328/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2502197328.dir/build.make CMakeFiles/cmTryCompileExec2502197328.dir/build
+make[1]: Entering directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2502197328.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2502197328.dir/CheckSymbolExists.c.o   -c /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_MAC’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec2502197328.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2502197328/fast] Error 2
+
+File /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1287901942/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1287901942.dir/build.make CMakeFiles/cmTryCompileExec1287901942.dir/build
+make[1]: Entering directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1287901942.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1287901942.dir/CheckSymbolExists.c.o   -c /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1287901942
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1287901942.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1287901942.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1287901942 -rdynamic 
+CMakeFiles/cmTryCompileExec1287901942.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1287901942] Error 1
+make: *** [cmTryCompileExec1287901942/fast] Error 2
+
+File /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3791168291/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3791168291.dir/build.make CMakeFiles/cmTryCompileExec3791168291.dir/build
+make[1]: Entering directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3791168291.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3791168291.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3791168291
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3791168291.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3791168291.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3791168291 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3791168291] Error 1
+make: *** [cmTryCompileExec3791168291/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_POPPLER_0_28 failed with the following output:
+Change Dir: /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec191915478/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec191915478.dir/build.make CMakeFiles/cmTryCompileExec191915478.dir/build
+make[1]: Entering directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec191915478.dir/src.cxx.o
+/usr/bin/c++    -Wnon-virtual-dtor -Wno-long-long -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-exceptions -DQT_NO_EXCEPTIONS -fno-check-new -fno-common -Woverloaded-virtual -fno-threadsafe-statics -fvisibility=hidden -Werror=return-type -fvisibility-inlines-hidden -DHAVE_POPPLER_0_28 -I/usr/include/poppler/qt4 -I/usr/include/poppler -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec191915478.dir/src.cxx.o -c /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/src.cxx
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/src.cxx:6:87: error: no matching function for call to ‘Poppler::Page::annotations(QSet<Poppler::Annotation::SubType>&)’
+   p->annotations( QSet<Poppler::Annotation::SubType>() << Poppler::Annotation::ASound );
+                                                                                       ^
+/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/src.cxx:6:87: note: candidate is:
+In file included from /home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/poppler/qt4/poppler-qt4.h:701:21: note: QList<Poppler::Annotation*> Poppler::Page::annotations() const
+  QList<Annotation*> annotations() const;
+                     ^
+/usr/include/poppler/qt4/poppler-qt4.h:701:21: note:   candidate expects 0 arguments, 1 provided
+make[1]: Leaving directory `/home/vinnu/devel/build/okular/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec191915478.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec191915478/fast] Error 2
+
+Source file was:
+
+#include <poppler-qt4.h>
+int main()
+{
+  Poppler::Page *p = 0;
+  p->annotations( QSet<Poppler::Annotation::SubType>() << Poppler::Annotation::ASound );
+  return 0;
+}
+
